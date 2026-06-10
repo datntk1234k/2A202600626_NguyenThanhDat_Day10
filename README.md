@@ -1,5 +1,9 @@
 # Day 10 - Data Pipeline And Data Observability
 
+> **Họ và tên:** Nguyễn Thành Đạt
+> **MSSV:** 2A202600626
+> **Lớp:** E402
+
 Chào các bạn đến với bài lab Day 10.
 
 Mục tiêu của bài này là xây dựng một ETL pipeline nhỏ nhưng đầy đủ cho một hệ thống RAG:
