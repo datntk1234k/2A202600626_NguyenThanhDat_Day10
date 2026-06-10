@@ -1,0 +1,46 @@
+{
+  "report_name": "phase1_quality",
+  "total_rows": 23,
+  "total_checks": 6,
+  "passed": 6,
+  "failed": 0,
+  "success": true,
+  "checks": [
+    {
+      "name": "row_count_minimum",
+      "success": true,
+      "observed": 23,
+      "detail": "Expected at least 5 rows."
+    },
+    {
+      "name": "paper_id_not_null",
+      "success": true,
+      "observed": 0,
+      "detail": "paper_id must be present."
+    },
+    {
+      "name": "paper_id_unique",
+      "success": true,
+      "observed": 0,
+      "detail": "paper_id must be unique."
+    },
+    {
+      "name": "title_not_null",
+      "success": true,
+      "observed": 0,
+      "detail": "title must be non-empty."
+    },
+    {
+      "name": "summary_min_length",
+      "success": true,
+      "observed": 0,
+      "detail": "summary should have at least 50 characters."
+    },
+    {
+      "name": "freshness_within_threshold",
+      "success": true,
+      "observed": 0,
+      "detail": "rows should be at most 180 days old."
+    }
+  ]
+}

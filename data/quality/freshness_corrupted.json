@@ -1,0 +1,11 @@
+{
+  "total_rows": 22,
+  "latest_published": "2026-05-06",
+  "oldest_published": "2001-01-01",
+  "min_age_days": 35,
+  "max_age_days": 9000,
+  "stale_rows": 3,
+  "fresh_rows": 19,
+  "freshness_threshold_days": 180,
+  "is_fresh": false
+}

@@ -1,0 +1,46 @@
+{
+  "report_name": "corrupted_quality",
+  "total_rows": 22,
+  "total_checks": 6,
+  "passed": 3,
+  "failed": 3,
+  "success": false,
+  "checks": [
+    {
+      "name": "row_count_minimum",
+      "success": true,
+      "observed": 22,
+      "detail": "Expected at least 5 rows."
+    },
+    {
+      "name": "paper_id_not_null",
+      "success": true,
+      "observed": 0,
+      "detail": "paper_id must be present."
+    },
+    {
+      "name": "paper_id_unique",
+      "success": false,
+      "observed": 2,
+      "detail": "paper_id must be unique."
+    },
+    {
+      "name": "title_not_null",
+      "success": true,
+      "observed": 0,
+      "detail": "title must be non-empty."
+    },
+    {
+      "name": "summary_min_length",
+      "success": false,
+      "observed": 8,
+      "detail": "summary should have at least 50 characters."
+    },
+    {
+      "name": "freshness_within_threshold",
+      "success": false,
+      "observed": 3,
+      "detail": "rows should be at most 180 days old."
+    }
+  ]
+}
